@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="team-column">
+        <h3 class="team-name">Home</h3>
+        <div class="score-container">
+          <p>Goals:</p>
+          <p class="score-num" id="home-goals">0</p>
+          <p>Fouls:</p>
+          <p class="score-num" id="home-fouls">0</p>
+          <p>Penalties:</p>
+          <p class="score-num" id="home-penalties">0</p>
+        </div>
+        <div class="button-container">
+          <button class="goal-btn button" onclick="addHomeGoal()">Goal!</button>
+          <div class="btn-pair">
+            <button class="btn button" onclick="addHomeFoul()">Foul</button>
+            <button class="btn button" onclick="addHomePenalty()">Penalty!</button>            
+          </div>
+        </div>
+      </div>
+
+      <div class="team-column">
+        <h3 class="team-name">Guest</h3>
+        <div class="score-container">
+          <p>Goals:</p>
+          <p class="score-num" id="guest-goals">0</p>
+          <p>Fouls:</p>
+          <p class="score-num" id="guest-fouls">0</p>
+          <p>Penalties:</p>
+          <p class="score-num" id="guest-penalties">0</p>
+        </div>
+        <div class="button-container">
+          <button class="goal-btn button" onclick="addGuestGoal()">Goal!</button>
+          <div class="btn-pair">
+            <button class="btn button" onclick="addGuestFoul()">Foul.</button>
+            <button class="btn button" onclick="addGuestPenalty()">Penalty</button>            
+          </div>
+        </div>
+      </div>
+     
+    </div>
+
+    <button id="new-game-btn" class="button" onclick="newGame()">New Game</button>
+
+    <script src="index.js"></script>
+  </body>
+</html>

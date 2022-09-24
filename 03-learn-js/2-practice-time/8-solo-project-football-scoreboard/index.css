@@ -1,0 +1,98 @@
+@font-face {
+  src: url("soccer-league.regular.ttf");
+  font-family: SoccerLeague;
+}
+
+body {
+  margin: 0;
+  background: #D1FAE5;
+  background-image: url("fieldd.jpg");
+  background-size: cover;
+  text-align: center;
+  font-family: SoccerLeague;
+}
+
+.container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-evenly;
+}
+
+.team-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-name {
+  font-size: 30px;
+  margin: 30px 0 8px 0;
+  text-shadow: 0 0 5px white;
+  color: rgb(3, 34, 1);
+}
+
+.score-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 18px;
+  text-shadow: 1px 1px 4px black;
+  color: #D1FAE5;
+  background: rgb(102, 179, 102, 0.6);
+  width: 190px;
+  height: 200px;
+  margin-bottom: 10px;
+  box-shadow: 4px 2px 2px black;
+  border-radius: 5px;
+}
+
+p {
+  margin: 0;
+}
+
+.score-num {
+  font-size: 25px;
+}
+
+.button-container {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn-pair {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.goal-btn {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.btn {
+  font-size: 15px;
+  width: 77.5px;
+  padding: 5px;
+  padding: 5px 0 5px 0;
+}
+
+.button {
+  font-family: inherit;
+  text-shadow: 0 0 3px white;
+  color: rgb(8, 58, 4);
+  background: rgb(255, 255, 255, 0.8);
+  border: none;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px black;
+}
+
+#new-game-btn {
+  margin-top: 40px;
+  font-size: 20px;
+  padding: 20px;
+}
