@@ -37,7 +37,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 
 #password-btn {
