@@ -14,6 +14,7 @@ let includeSymbolsEl = document.getElementById("include-symbols");
 
 function setPasswords() {
   const length = passwordLengthEl.value;
+
   const includeNums = includeNumbersEl.checked;
   const includeSymbs = includeSymbolsEl.checked;
 
@@ -22,6 +23,14 @@ function setPasswords() {
 }
 
 function generatePassword(passwordLength, includeNums, includeSymbs) {
+  let lengthWarning = document.getElementById("length-warning");
+
+  if (passwordLength < 8 || passwordLength > 15) {
+    lengthWarning.textContent = "please select a length of 8-15 characters";
+    return;
+  }
+
+  lengthWarning.textContent = "";
   let password = '';
   let characters = [];
 

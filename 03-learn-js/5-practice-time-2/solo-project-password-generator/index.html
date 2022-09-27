@@ -37,7 +37,7 @@
         <button onclick="setPasswords()" id="password-btn">Generate passwords</button>
         <div id="settings-container">
           <div>
-            <label class="green-text" for="password-length">password length</label>
+            <label class="green-text" for="password-length">length (8-15)</label>
             <input type="number" id="password-length" value="15" min="8" max="15">
           </div>
           <div>
@@ -51,6 +51,7 @@
         </div>
       </div>
 
+      <p id="length-warning"></p>
       <div id="line"></div>
 
       <div id="password-container">

@@ -37,7 +37,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 35px;
+  /* margin-bottom: 35px; */
 }
 
 #password-btn {
@@ -80,6 +80,15 @@ input[type="checkbox"] {
 }
 
 https://www.w3docs.com/snippets/css/how-to-style-a-checkbox-with-css.html */
+
+#length-warning {
+  color: rgb(255, 152, 152);
+  font-style: italic;
+  font-size: 14px;
+  height: 14px;
+  padding: 10.5px 0 10.5px 0;
+  margin: 0;
+}
 
 #line {
   margin: 0 auto;
