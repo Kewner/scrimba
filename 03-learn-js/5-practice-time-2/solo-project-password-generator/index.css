@@ -4,6 +4,10 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.green-text {
+  color: #4ADF86;
+}
+
 #container {
   width: 550px;
   width: 446px;
@@ -21,15 +25,19 @@ body {
   font-weight: 800;
 }
 
-#green-text {
-  color: #4ADF86;
-}
-
 #sub-heading {
   color: #D5D4D8;
   margin: 0 0 51px 0;
+  margin: 0 0 60px 0;
   font-size: 20px;
   font-weight: 400;
+}
+
+#usability-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 #password-btn {
@@ -40,8 +48,38 @@ body {
   border-radius: 6px;
   border: none;
   font-size: 16px;
-  margin-bottom: 35px; 
+  font-weight: 500;
 }
+
+#settings-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: end;
+  /* CSS for design with generate button on the right side:
+  align-items: start; */
+}
+
+/* #password-length, #include-numbers, #include-symbols {
+  margin: 5px;
+} */
+
+#password-length {
+  width: 30px;
+  height: 16px;
+  background-color: #1F2937;
+  color: #D5D4D8;
+  font-weight: bold;
+  font-size: 16;
+}
+
+/* Maybe later: using CSS to display the checkbox as a slider
+
+input[type="checkbox"] {
+  visibility: hidden;
+}
+
+https://www.w3docs.com/snippets/css/how-to-style-a-checkbox-with-css.html */
 
 #line {
   margin: 0 auto;
@@ -50,13 +88,13 @@ body {
   height: 1px;
 }
 
-#password-space-container {
+#password-container {
   margin-top: 35px;
   display: flex;
   justify-content: space-between;
 }
 
-.password-space {
+#pass-container-one, #pass-container-two {
   display: flex;
   justify-content: center;
   align-items: center;

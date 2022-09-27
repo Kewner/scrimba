@@ -6,4 +6,4 @@
 # Stretch goals
 - Ability to set password length.
 - Add "copy-on-click" feature.
-- Toggle "symbols" and numbers" on/off.
+- Toggle "symbols" and "numbers" on/off.
