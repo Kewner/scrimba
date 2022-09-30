@@ -1,0 +1,85 @@
+body {
+  margin: 0px;
+  background-color: #F4F4F4;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+/* HERO SECTION */
+
+#hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: #6943FF;
+  height: 285px;
+}
+
+h1 {
+  margin: 33px 0 0 0;
+  font-size: 28px;
+}
+
+#input {
+  box-sizing: border-box;
+  width: 117px;
+  height: 83px;
+  font-size: 58px;
+  color: white;
+  font-weight: 800;
+  text-align: inherit;
+  margin: 30px 0 25px 0;
+  border-radius: 5px;
+  border: 2px solid #B295FF;
+  background-color: #6943FF;;
+}
+
+button {
+  width: 117px;
+  height: 42px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  font-size: 16px;
+  color: #3D3D3D;
+}
+
+/* RESULTS SECTION */
+
+#results-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 444px;
+}
+
+.results-container {
+  height: 108.57px;
+  width: 500px;
+  background-color: white;
+  color: #5A537B;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 31px 0 9px 0;
+}
+
+#length {
+  margin-top: 36px;
+}
+
+#volume {
+  margin-top: 23.43px;
+}
+
+#mass {
+  margin: 23.43px 0 35.43px 0;
+}
+
+p {
+  font-size: 14px;
+  margin: 0;
+}
