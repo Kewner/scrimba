@@ -1,0 +1,17 @@
+Chrome Extension recap
+======================
+- const variables
+- addEventListener()
+- innerHTML()
+- input.value
+- function parameters
+- template strings
+- localStorage
+	- setItem()
+	- getItem()
+	- clear()
+- the JSON object
+	- JSON.stringify()
+	- JSON.parse()
+	- manifest.json to configure the extension
+- objects in arrays
