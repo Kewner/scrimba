@@ -47,7 +47,7 @@ button {
 }
 
 #no-input-warning {
-  color: red;
+  color: #d3beff;
   font-size: 16px;
   font-style: italic;
   margin-top: 8px;
